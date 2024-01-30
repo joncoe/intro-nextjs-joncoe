@@ -10,7 +10,7 @@ const ToDosPage = async () => {
   const todos = await getData()
   return (
     <>
-      <h1>To Do List</h1>
+      <h2>Your Todo List</h2>
       <TodoList todos={todos} />
     </>
   )
