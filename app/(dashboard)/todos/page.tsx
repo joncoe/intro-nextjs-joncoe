@@ -1,5 +1,5 @@
-import TodoList from '../../components/ToDoList'
-import db from '../../utils/db'
+import TodoList from '@/components/ToDoList'
+import db from '@/utils/db'
 
 const getData = async () => {
   const todos = await db.todo.findMany({})
