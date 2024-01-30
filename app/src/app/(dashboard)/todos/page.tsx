@@ -1,5 +1,5 @@
-const ToDos = () => {
-  return <div>ToDos</div>
+const ToDosPage = () => {
+  return <div>ToDosPage</div>
 }
 
-export default ToDos
+export default ToDosPage
